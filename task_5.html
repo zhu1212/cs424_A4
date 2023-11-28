@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+
+    <title>Task 5 Spatial Visualization</title>
+</head>
+<body>
+    <button onclick="goBack()">Back</button>
+    <h2> Number of Crashes of Chicago per Zip Code  </h2>
+    <h1></h1>
+    
+    <div id="visTask5"></div>
+    <div id="vis"></div>
+    <div id="mapid" style="width: 600px; height: 400px;"></div>
+
+    <!-- Include Vega libraries -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="task_5.js"></script>
+
+    <script>
+        function goBack() {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+</body>
+</html>

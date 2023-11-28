@@ -1,0 +1,70 @@
+body {
+    background-image: url('task-3image.png'); /* Path to your image */
+    background-color: #111; /* Fallback color */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    color: white; /* Change text color for better visibility */
+}
+.dashboard {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.dashboard-title h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.dashboard-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dashboard-item {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 45%; /* Adjust based on the number of items per row */
+    /* Further styling for the visualization containers */
+}
+
+h1 {
+    color: #ff8f00; /* Neon orange */
+    background-color: #2e2e2e; /* Dark gray background */
+    display: inline-block;
+    padding: 10px 20px;
+    border: 3px solid #ff8f00; /* Neon border */
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 15px #ff8f00; /* Neon glow */
+}
+
+h2 {
+    color: #1e81b0; /* A frosty blue */
+    margin: 20px 0;
+}
+
+#vis1, #vis2, #vis3, #vis4, #vis5, #vis6 {
+    background-color: #ffe6ec;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px;
+    max-width: 80%;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

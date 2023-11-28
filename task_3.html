@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Crash Data Visualization</title>
+    <link rel="stylesheet" href="task_3.css">
+</head>
+<body>
+    <button onclick="goBack()">Back</button>
+    <div class="container"></div>
+        <h1>Vega-Lite Visualizations</h1>
+
+        <h2>Visualization - 1</h2>
+        <div id="vis1"></div>
+
+        <h2>Visualization - 2</h2>
+        <div id="vis2"></div>
+
+        <h2>Visualization - 3</h2>
+        <div id="vis3"></div>
+
+        <h2>Visualization - 4</h2>
+        <div id="vis4"></div>
+
+        <h2>Visualization - 5</h2>
+        <div id="vis5"></div>
+
+        <h2>Visualization - 6</h2>
+        <div id="vis6"></div>
+
+        <h2>Visualization - 7</h2>
+        <div id="vis7"></div>
+
+    </div>
+
+    <div class="dashboard">
+        <div class="dashboard-title">
+            <h1>Miniature Traffic Data Visualizations</h1>
+        </div>
+        <div class="dashboard-row">
+            <div id="vis8" class="dashboard-item"></div>
+            <div id="vis9" class="dashboard-item"></div>
+            <div id="vis10" class="dashboard-item"></div>
+        </div>
+        <!-- Additional rows or items can be added here -->
+    </div>
+
+    <!-- Include Vega and Vega-Lite Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="task_3.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

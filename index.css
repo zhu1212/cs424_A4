@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('snowflakes-background.png'); /* Snowflakes background */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    color: #333; /* Dark text for readability */
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #000001; /* Dark blue color */
+    margin-top: 20px;
+    font-weight: bold; /* Make title thicker */
+}
+
+h2 {
+    font-weight: bold; /* Make section headings thicker */
+    color: #003366; /* Darker blue for contrast */
+    /* Add any other styling for h2 elements as needed */
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    color: #005580; /* Dark blue for menu items */
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #cceeff; /* Light blue for hover, like frost */
+}
+
+
+
+/* Add additional styles as needed */

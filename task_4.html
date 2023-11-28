@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task 4 Visualization</title>
+</head>
+<body>
+    <button onclick="goBack()">Back</button>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">View</button>
+        <div id="myDropdown" class="dropdown-content"> 
+        <a href="task4_1.html">Linked View Visualizations 1</a>
+        <a href="task4_2.html">Linked View Visualizations 2</a>
+        </div>
+    </div>
+    <!-- Include Vega libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <!-- Include Task 4 JavaScript -->
+    <script src="task4_1.js"></script>
+    <script src="task4_2.js"></script>
+    <script>
+        function goBack() {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+</body>
+</html>
+
